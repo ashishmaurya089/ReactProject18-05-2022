@@ -1,4 +1,4 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expense/Expenses";
 function App(props) {
 const item =[
   {
@@ -18,8 +18,7 @@ const item =[
   return (
     <>
       <h1>Hello,</h1>
-      <Expenses item={item}/>
-      
+      <Expenses item={item}/>      
     </>
   );
 }
